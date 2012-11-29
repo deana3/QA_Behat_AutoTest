@@ -1,0 +1,101 @@
+Feature: Checking that all the live sites are up and working
+  As a user
+  I want to type in a url and check that the live site is up
+
+
+
+Scenario:  Checking that the following site is up and working - Dennis - Company Website
+Given I am on "http://www.dennis.co.uk/"
+ 
+Scenario:  Checking that the following site is up and working - Affiliate Programme
+Given I am on "http://darwin.affiliatewindow.com/merchant-profile/2899"
+
+Scenario:  Checking that the following site is up and working - The Week
+Given I am on "http://www.theweek.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Auto Express
+Given I am on "http://www.autoexpress.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Custom PC
+Given I am on "http://www.custompc.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - IT Pro
+Given I am on "http://www.itpro.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - IT Pro India
+Given I am on "http://www.itpro.in/"
+ 
+Scenario:  Checking that the following site is up and working - Mac User
+Given I am on "http://www.macuser.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Mens Fitness
+Given I am on "http://www.mensfitness.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Micro Mart
+Given I am on "http://www.micromart.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - PC Pro
+Given I am on "http://www.pcpro.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Bit Tech
+Given I am on "http://www.bit-tech.net"
+ 
+Scenario:  Checking that the following site is up and working - Know your Mobile 
+Given I am on "http://www.knowyourmobile.com"
+ 
+Scenario:  Checking that the following site is up and working - Octane
+Given I am on "http://www.classicandperformancecar.com"
+ 
+Scenario:  Checking that the following site is up and working - Expert Review
+Given I am on "http://www.expertreviews.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Channel Pro
+Given I am on "http://www.channelpro.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Know your Cell
+Given I am on "http://www.knowyourcell.com"
+ 
+Scenario:  Checking that the following site is up and working - Know Your Mobile India
+Given I am on "http://www.knowyourmobile.in"
+ 
+Scenario:  Checking that the following site is up and working - iGizmo
+Given I am on "http://www.igizmo.co.uk/signup"
+ 
+Scenario:  Checking that the following site is up and working - Digital SLR Photography
+Given I am on "http://www.digitalslrphoto.com"
+ 
+Scenario:  Checking that the following site is up and working - Den of Geek
+Given I am on "http://www.denofgeek.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Computer Shopper
+Given I am on "http://www.computershopper.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Dennis Communications
+Given I am on "http://www.denniscommunications.com"
+ 
+Scenario:  Checking that the following site is up and working - Magazines
+Given I am on "http://www.magazine-group.co.uk/"
+ 
+Scenario:  Checking that the following site is up and working - mobile Phone Deals
+Given I am on "http://phonedeals.knowyourmobile.com/"
+ 
+Scenario:  Checking that the following site is up and working - Love Offers
+Given I am on "http://www.loveoffers.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Health and Fitness
+Given I am on "http://www.healthandfitnessonline.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Car Buyer
+Given I am on "http://www.carbuyer.co.uk" 
+
+Scenario:  Checking that the following site is up and working - Cloud Pro
+Given I am on "http://www.cloudpro.co.uk"
+ 
+Scenario:  Checking that the following site is up and working - Mag Books
+Given I am on "http://www.magbooks.com"
+ 
+Scenario:  Checking that the following site is up and working - Mobile Test
+Given I am on "http://www.mobiletest.fr" 
+
+Scenario:  Checking that the following site is up and working - Lists
+Given I am on "http://www.litshow.co.uk" 

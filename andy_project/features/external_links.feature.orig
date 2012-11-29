@@ -1,0 +1,25 @@
+Feature: Checking that all external links go to the correct pages
+  As a user
+  I want to follow the links links on the home page to the correct external sites
+
+Subscribe to me on YouTube
+
+@javascript
+Scenario: Checking that the external links to Twitter go to the correct page
+    Given I am on "/"
+    Then I follow "Follow CarBuyer on Twitter"
+    Then I should see "Tweets"
+
+
+Scenario: Checking that the external link to you Tube go to the correct page
+    Given I am on "/"
+    Then I follow "Subscribe to me on YouTube"
+    Then I should see "YouTube"
+
+
+Scenario: Checking that the external link to Face Book go to the correct page
+    Given I am on "/"
+    Then I follow "Find us on Facebook"
+    Then I should see "facebook"
+    Then get current URL
+

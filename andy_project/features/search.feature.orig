@@ -1,0 +1,12 @@
+Feature: Checking that  go to the search function displays the correct pages
+  As a user
+  I want to enter a search term and for the correct car details to be displayed
+
+
+@javascript
+Scenario: Searching for Fords from the car buyer home page
+    Given I am on "/"
+    When I fill in "edit-keys" with "Ford"
+    And I press "Search"
+    Then I should see "Search found"
+

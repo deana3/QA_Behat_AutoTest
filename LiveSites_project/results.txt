@@ -1,0 +1,42 @@
+Feature: Checking that all the live sites are up and working
+  As a user
+  I want to type in a url and check that the live site is up
+
+  Scenario: Checking that the following site is up and working - Auto Express # features/AutoExpress.feature:6
+    Given I am on "http://www.autoexpress.co.uk"                              # Drupal\DrupalExtension\Context\DrupalContext::visit()
+    Then I should see "Car News"                                              # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+    Then I should see "Videos"                                                # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+    Then I should see "Accessories & Tyres"                                   # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+    Then I should see "New Car Deals"                                         # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+    Then I should see "Used Cars for Sale"                                    # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+    Then I should see "Car Tech"                                              # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+    Then I should see "Driver Power"                                          # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+
+Feature: Checking that all the live sites are up and working
+  As a user
+  I want to type in a url and check that the live site is up
+
+  Scenario: Checking that the following site is up and working - The Week     # features/TheWeek.feature:5
+    Given I am on "http://www.theweek.co.uk"                                  # Drupal\DrupalExtension\Context\DrupalContext::visit()
+    Then I should see "DAILY BRIEFING"                                        # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+
+Feature: Checking that all the live sites are up and working
+  As a user
+  I want to type in a url and check that the live site is up
+
+  Scenario: Checking that the following site is up and working - Affiliate Programme    # features/darwin.feature:5
+    Given I am on "http://darwin.affiliatewindow.com/merchant-profile/2899"             # Drupal\DrupalExtension\Context\DrupalContext::visit()
+    Then I should see "Overview"                                                        # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+    Then I should see "Digital SLR Photography- for photography enthusiasts everywhere" # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+
+Feature: Checking that all the live sites are up and working
+  As a user
+  I want to type in a url and check that the live site is up
+
+  Scenario: Checking that the following site is up and working - Dennis - Company Website # features/dennis.feature:7
+    Given I am on "http://www.dennis.co.uk/"                                              # Drupal\DrupalExtension\Context\DrupalContext::visit()
+    Then I should see "Copyright Dennis Publishing Limited licensed by Felden"            # Drupal\DrupalExtension\Context\DrupalContext::assertPageContainsText()
+
+4 scenarios (4 passed)
+15 steps (15 passed)
+1m51.662s

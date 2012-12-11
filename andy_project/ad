@@ -1,0 +1,62 @@
+Given /^(?:that I|I) am at "(?P[^"]*)"$/
+ When /^I visit "(?P[^"]*)"$/
+Given /^(?:that I|I) am (?:on|at) the homepage$/
+ When /^I click "(?P<link>[^"]*)"$/
+Given /^for "(?P<field>[^"]*)" I enter "(?P<value>[^"]*)"$/
+Given /^I enter "(?P<value>[^"]*)" for "(?P<field>[^"]*)"$/
+ When /^I press the "(?P<button>[^"]*)" button$/
+ Then /^I should see the link "(?P<link>[^"]*)"$/
+ Then /^I should not see the link "(?P<link>[^"]*)"$/
+ Then /^I (?:|should )see the heading "(?P<heading>[^"]*)"$/
+ Then /^I should see the heading "(?P<heading>[^"]*)" in the "(?P<region>[^"]*)"(?:| region)$/
+ Then /^(?:I|I should) see the text "(?P<text>[^"]*)"$/
+ Then /^I should not see the text "(?P<text>[^"]*)"$/
+ Then /^I should get a "(?P<code>[^"]*)" HTTP response$/
+ Then /^I should not get a "(?P<code>[^"]*)" HTTP response$/
+Given /^I check the box "(?P<checkbox>[^"]*)"$/
+Given /^I uncheck the box "(?P<checkbox>[^"]*)"$/
+ When /^I select the radio button "(?P<label>[^"]*)" with the id "(?P<id>[^"]*)"$/
+Given /^I am an anonymous user$/
+Given /^I am not logged in$/
+Given /^I am logged in as a user with the "(?P<role>[^"]*)" role$/
+Given /^I click "(?P<link>[^"]*)" in the "(?P<row_text>[^"]*)" row$/
+Given /^(?:|I )am on homepage$/
+ When /^(?:|I )go to homepage$/
+Given /^(?:|I )am on "(?P<page>[^"]+)"$/
+ When /^(?:|I )go to "(?P<page>[^"]+)"$/
+ When /^(?:|I )reload the page$/
+ When /^(?:|I )move backward one page$/
+ When /^(?:|I )move forward one page$/
+ When /^(?:|I )press "(?P<button>(?:[^"]|\\")*)"$/
+ When /^(?:|I )follow "(?P<link>(?:[^"]|\\")*)"$/
+ When /^(?:|I )fill in "(?P<field>(?:[^"]|\\")*)" with "(?P<value>(?:[^"]|\\")*)"$/
+ When /^(?:|I )fill in "(?P<value>(?:[^"]|\\")*)" for "(?P<field>(?:[^"]|\\")*)"$/
+ When /^(?:|I )fill in the following:$/
+ When /^(?:|I )select "(?P<option>(?:[^"]|\\")*)" from "(?P<select>(?:[^"]|\\")*)"$/
+ When /^(?:|I )additionally select "(?P<option>(?:[^"]|\\")*)" from "(?P<select>(?:[^"]|\\")*)"$/
+ When /^(?:|I )check "(?P<option>(?:[^"]|\\")*)"$/
+ When /^(?:|I )uncheck "(?P<option>(?:[^"]|\\")*)"$/
+ When /^(?:|I )attach the file "(?P[^"]*)" to "(?P<field>(?:[^"]|\\")*)"$/
+ Then /^(?:|I )should be on "(?P<page>[^"]+)"$/
+ Then /^the (?i)url(?-i) should match (?P<pattern>"([^"]|\\")*")$/
+ Then /^the response status code should be (?P<code>\d+)$/
+ Then /^the response status code should not be (?P<code>\d+)$/
+ Then /^(?:|I )should see "(?P<text>(?:[^"]|\\")*)"$/
+ Then /^(?:|I )should not see "(?P<text>(?:[^"]|\\")*)"$/
+ Then /^(?:|I )should see text matching (?P<pattern>"(?:[^"]|\\")*")$/
+ Then /^(?:|I )should not see text matching (?P<pattern>"(?:[^"]|\\")*")$/
+ Then /^the response should contain "(?P<text>(?:[^"]|\\")*)"$/
+ Then /^the response should not contain "(?P<text>(?:[^"]|\\")*)"$/
+ Then /^(?:|I )should see "(?P<text>(?:[^"]|\\")*)" in the "(?P<element>[^"]*)" element$/
+ Then /^(?:|I )should not see "(?P<text>(?:[^"]|\\")*)" in the "(?P<element>[^"]*)" element$/
+ Then /^the "(?P<element>[^"]*)" element should contain "(?P<value>(?:[^"]|\\")*)"$/
+ Then /^the "(?P<element>[^"]*)" element should not contain "(?P<value>(?:[^"]|\\")*)"$/
+ Then /^(?:|I )should see an? "(?P<element>[^"]*)" element$/
+ Then /^(?:|I )should not see an? "(?P<element>[^"]*)" element$/
+ Then /^the "(?P<field>(?:[^"]|\\")*)" field should contain "(?P<value>(?:[^"]|\\")*)"$/
+ Then /^the "(?P<field>(?:[^"]|\\")*)" field should not contain "(?P<value>(?:[^"]|\\")*)"$/
+ Then /^the "(?P<checkbox>(?:[^"]|\\")*)" checkbox should be checked$/
+ Then /^the "(?P<checkbox>(?:[^"]|\\")*)" checkbox should not be checked$/
+ Then /^(?:|I )should see (?P<num>\d+) "(?P<element>[^"]*)" elements?$/
+ Then /^print last response$/
+ Then /^show last response$/

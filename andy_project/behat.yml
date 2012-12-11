@@ -1,0 +1,42 @@
+# Local configuration.
+default:
+  context:
+    class:  'FeatureContext'
+    parameters:
+      drupal_users:
+        drupal:
+          'drupal'
+        site user:
+          'site user pass here'
+        git user:
+          'git user pass here'
+        git vetted user:
+          'git vetted user pass here'
+        docs manager:
+          'docs moderator pass here'
+        admin test:
+          'admin test pass here'
+      #git usernames don't always match the drupal username
+      git_users:
+        gituser:
+          'gituser pass here'
+        gitvetteduser:
+          'gitvetteduser pass here'
+      post title: 'enter a node title here that has a link on the current page'
+
+  extensions:
+     Behat\MinkExtension\Extension:
+       base_url:  'http://www.carbuyer.co.uk'
+       default_session: selenium2
+       browser_name: 'firefox'
+       selenium2:                    
+         capabilities: { "browser": "firefox", "version": "14"}
+
+     Drupal\DrupalExtension\Extension:
+      # Set this drush alias in your aliases.drushrc.php file to match
+      # the base_url set above. Leave off the preceding '@'.
+       blackbox: ~
+       drush: ~
+       drush:
+         alias: 'myalias'
+
